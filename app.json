@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user",
+    "pages/my/app"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "惠梁",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "red",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./img/sy01.png",
+        "selectedIconPath": "img/sy02.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "详情",
+        "iconPath": "./img/xq01.png",
+        "selectedIconPath": "img/xq02.png"
+      },
+      {
+        "pagePath": "pages/my/app",
+        "text": "我的",
+        "iconPath": "./img/me01.png",
+        "selectedIconPath": "img/me02.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

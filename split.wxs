@@ -1,0 +1,5 @@
+var s = function(d){
+  return d.split(",")
+}
+
+module.exports.spl = s;

@@ -1,0 +1,9 @@
+<!--pages/user/user.wxml-->
+<wxs src="../../split.wxs" module="tools" />
+<view>
+
+
+
+
+</view>
+
